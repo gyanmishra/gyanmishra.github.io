@@ -74,7 +74,7 @@ blogdown::build_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::serve_site()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The “render” directory will pe populated with the content of the webpage. Modify the markdown files and .toml inside the “render” folder as per your requirement and your webpage will be ready to publish.&lt;/p&gt;
 &lt;p&gt;After you have modified the conent and ready to go online, create a repository at &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; with extension “.github.io” (for e.g your_webpage_name.github.io).&lt;/p&gt;
-&lt;p&gt;Now the final step is to push the content of the “render” folder to github repositiry that we created above.&lt;/p&gt;
+&lt;p&gt;Now the final step is to push the content of the “render” folder to github repository that we created above.&lt;/p&gt;
 &lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;# open terminal
 cd render
 # make sure that git is already installed in your system.
