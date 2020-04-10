@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dheerendra Gupta on </title>
+    <link>/authors/dheerendra-gupta/</link>
+    <description>Recent content in Dheerendra Gupta on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/dheerendra-gupta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NCoR1: putting the brakes on the dendritic cell immune tolerance</title>
+      <link>/publication/ahad-2019-ncor-1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ahad-2019-ncor-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

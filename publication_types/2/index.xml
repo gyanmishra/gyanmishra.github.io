@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on </title>
+    <link>/publication_types/2/</link>
+    <description>Recent content in 2 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BedSect: An Integrated Web Server Application to Perform Intersection, Visualization, and Functional Annotation of Genomic Regions From Multiple Datasets</title>
+      <link>/publication/mishra-2020-bedsect/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mishra-2020-bedsect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NCoR1: putting the brakes on the dendritic cell immune tolerance</title>
+      <link>/publication/ahad-2019-ncor-1/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ahad-2019-ncor-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EumicrobeDBLite: a lightweight genomic resource and analytic platform for draft oomycete genomes</title>
+      <link>/publication/panda-2018-eumicrobedblite/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/panda-2018-eumicrobedblite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciphering the genome sequences of the hydrophobic cyanobacterium Scytonema tolypothrichoides VB-61278</title>
+      <link>/publication/das-2015-deciphering/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/das-2015-deciphering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Draft genome sequence of the terrestrial cyanobacterium Scytonema millei VB511283, isolated from Eastern India</title>
+      <link>/publication/sen-2015-draft/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sen-2015-draft/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

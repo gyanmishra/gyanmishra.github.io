@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on </title>
+    <link>/authors/admin/</link>
+    <description>Recent content in admin on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/author/admin/</guid>
+      <description>Hi,
+Thank you for visiting my page.
+I am a graduate student at Institute of Life Sciences, India working in the area of Computational Biology. My PhD research topic is epigenetic regulation of immune response in dendritic cells. Corepressors protein plays an important role in dynamic epigenetic modifications such as acetylation and deacetylation of chromatin that regulates gene expression. I am investigating role of these corepressors protein in regulating multiple immmune response upon dendritic cells activation.</description>
+    </item>
+    
+  </channel>
+</rss>

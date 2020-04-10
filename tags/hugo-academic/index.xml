@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo-academic on </title>
+    <link>/tags/hugo-academic/</link>
+    <description>Recent content in hugo-academic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hugo-academic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple steps to create your own GitHub webpage</title>
+      <link>/post/2020-04-09-hugo_tutorial/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-04-09-hugo_tutorial/</guid>
+      <description>This guide will help you to create your own GitHub Page from scratch using R package blogdown.
+ Note : This tutorial assumes that you some background knowlege of R.
+ So the first step is to install blogdown package.
+# install install.packages(&amp;quot;blogdown&amp;quot;) #load the library library(blogdown) Before getting started check whether hugo is installed in your system or not. If not, install using below command.
+sudo apt-get install hugo After successful installation of package blogdown and hugo you are ready to build your webpage.</description>
+    </item>
+    
+  </channel>
+</rss>
