@@ -81,7 +81,7 @@ cd render
 git init
 git add .
 git commit -m &amp;quot;First commit&amp;quot;
-git add remote user https://github.com/your_webpage_name/your_webpage_name.github.io
+git remote add origin https://github.com/your_webpage_name/your_webpage_name.github.io
 git push orginal master&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Congrats you have succesfully created your GitHub webpage !&lt;/p&gt;
 &lt;p&gt;I would like to thank &lt;a href=&#34;https://arupgsh.github.io/&#34;&gt;Arup Ghosh&lt;/a&gt; for his help in creating this webpage and tutorial.&lt;/p&gt;
