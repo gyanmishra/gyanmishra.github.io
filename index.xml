@@ -36,6 +36,40 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/tutorial/2020-06-14-test/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/2020-06-14-test/</guid>
+      <description>
+
+&lt;h3 id=&#34;how-to-run-jupyter-notebook-from-remote-server&#34;&gt;How to run  jupyter notebook from remote server&lt;/h3&gt;
+
+&lt;p&gt;Step1 : Start jupyter notebook in remote server&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nohup jupyter notebook --no-browser --port=8889
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Step2 : Connect from remote server&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh -N -f -L localhost:8889:localhost:8890 remote_username@remote_ip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;show-running-jupyter-notebook&#34;&gt;Show running jupyter notebook&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;jupyter notebook list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;select-column-1-to-4-from-data-frame-using-lapply&#34;&gt;Select column 1 to 4 from data frame using lapply&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;lapply(list, &amp;quot;[&amp;quot;, c(1:4))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Simple steps to create your own GitHub webpage</title>
       <link>/post/2020-04-09-hugo_tutorial/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
@@ -107,26 +141,6 @@ git push origin master&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Example Page</title>
-      <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
-      
-      <guid>/tutorial/example/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0530</pubDate>
@@ -188,6 +202,55 @@ git push origin master&lt;/code&gt;&lt;/pre&gt;
       
       <guid>/publication/sen-2015-draft/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/tutorial/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;#&amp;mdash;
+#date: &amp;ldquo;2020-06-14T00:00:00+05:30&amp;rdquo;
+#draft: false
+#linktitle: June
+#menu:&lt;/p&gt;
+
+&lt;h1 id=&#34;tutorial&#34;&gt;tutorial:&lt;/h1&gt;
+
+&lt;h1 id=&#34;parent-2020&#34;&gt;parent: 2020&lt;/h1&gt;
+
+&lt;h1 id=&#34;weight-1&#34;&gt;weight: 1&lt;/h1&gt;
+
+&lt;p&gt;#title:
+#toc: true
+#type: docs
+#&amp;mdash;&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-run-jupyter-notebook-from-remote-server&#34;&gt;How to run  jupyter notebook from remote server&lt;/h3&gt;
+
+&lt;h1 id=&#34;step1-start-jupyter-notebook-in-remote-server&#34;&gt;Step1 : Start jupyter notebook in remote server&lt;/h1&gt;
+
+&lt;p&gt;#&lt;/p&gt;
+
+&lt;h1 id=&#34;nohup-jupyter-notebook-no-browser-port-8889&#34;&gt;nohup jupyter notebook &amp;ndash;no-browser &amp;ndash;port=8889&lt;/h1&gt;
+
+&lt;h1 id=&#34;step2-connect-from-remote-server&#34;&gt;Step2 : Connect from remote server&lt;/h1&gt;
+
+&lt;p&gt;#   ssh -N -f -L localhost:8889:localhost:8890 remote@remote_ip&lt;/p&gt;
+
+&lt;h3 id=&#34;show-running-jupyter-notebook&#34;&gt;Show running jupyter notebook&lt;/h3&gt;
+
+&lt;p&gt;#   jupyter notebook list&lt;/p&gt;
+
+&lt;h3 id=&#34;select-column-from-data-frame-using-lapply&#34;&gt;Select column from data frame using lapply&lt;/h3&gt;
+
+&lt;h1 id=&#34;lapply-list-c-1-4-10&#34;&gt;lapply(list, &amp;ldquo;[&amp;ldquo;, c(1:4,10))&lt;/h1&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>

@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on GPM</title>
+    <title>GPM</title>
     <link>/tutorial/</link>
-    <description>Recent content in Overview on GPM</description>
+    <description>Recent content on GPM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Page</title>
+      <title></title>
+      <link>/tutorial/2020-06-14-test/</link>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/2020-06-14-test/</guid>
+      <description>How to run jupyter notebook from remote server Step1 : Start jupyter notebook in remote server
+nohup jupyter notebook --no-browser --port=8889  Step2 : Connect from remote server
+ssh -N -f -L localhost:8889:localhost:8890 remote_username@remote_ip  Show running jupyter notebook jupyter notebook list  Select column 1 to 4 from data frame using lapply lapply(list, &amp;quot;[&amp;quot;, c(1:4))  &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/example/</guid>
-      <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
-Tip 1 &amp;hellip;
-Tip 2 &amp;hellip;</description>
+      <description>#&amp;mdash; #date: &amp;ldquo;2020-06-14T00:00:00+05:30&amp;rdquo; #draft: false #linktitle: June #menu:
+tutorial: parent: 2020 weight: 1 #title: #toc: true #type: docs #&amp;mdash;
+How to run jupyter notebook from remote server Step1 : Start jupyter notebook in remote server #
+nohup jupyter notebook &amp;ndash;no-browser &amp;ndash;port=8889 Step2 : Connect from remote server # ssh -N -f -L localhost:8889:localhost:8890 remote@remote_ip
+Show running jupyter notebook # jupyter notebook list
+Select column from data frame using lapply lapply(list, &amp;ldquo;[&amp;ldquo;, c(1:4,10)) &amp;hellip;</description>
     </item>
     
   </channel>

@@ -27,10 +27,14 @@
   
     
   
-  <meta name="description" content="PhD Student">
+  <meta name="description" content="This guide will help you to create your own GitHub Page from scratch using R package blogdown.
+ Note : This tutorial assumes that you some background knowlege of R.
+ So the first step is to install blogdown package.
+# install install.packages(&quot;blogdown&quot;) #load the library library(blogdown) Before getting started check whether hugo is installed in your system or not. If not, install using below command.
+sudo apt-get install hugo After successful installation of package blogdown and hugo you are ready to build your webpage.">
 
   
-  <link rel="alternate" hreflang="en-us" href="../../authors/mathu-malar-chandrababunaidu/">
+  <link rel="alternate" hreflang="en-us" href="../../tutorial/2020-04-09-hugo_tutorial/">
 
   
 
@@ -111,15 +115,12 @@
   
 
   
-  <link rel="alternate" href="../../authors/mathu-malar-chandrababunaidu/index.xml" type="application/rss+xml" title="GPM">
-  <link rel="feed" href="../../authors/mathu-malar-chandrababunaidu/index.xml" type="application/rss+xml" title="GPM">
-  
 
   <link rel="manifest" href="../../site.webmanifest">
   <link rel="icon" type="image/png" href="../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
 
-  <link rel="canonical" href="../../authors/mathu-malar-chandrababunaidu/">
+  <link rel="canonical" href="../../tutorial/2020-04-09-hugo_tutorial/">
 
   
   
@@ -131,19 +132,25 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="GPM">
-  <meta property="og:url" content="/authors/mathu-malar-chandrababunaidu/">
-  <meta property="og:title" content="Mathu Malar Chandrababunaidu | GPM">
-  <meta property="og:description" content="PhD Student"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/tutorial/2020-04-09-hugo_tutorial/">
+  <meta property="og:title" content="Simple steps to create your own GitHub webpage | GPM">
+  <meta property="og:description" content="This guide will help you to create your own GitHub Page from scratch using R package blogdown.
+ Note : This tutorial assumes that you some background knowlege of R.
+ So the first step is to install blogdown package.
+# install install.packages(&quot;blogdown&quot;) #load the library library(blogdown) Before getting started check whether hugo is installed in your system or not. If not, install using below command.
+sudo apt-get install hugo After successful installation of package blogdown and hugo you are ready to build your webpage."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2015-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-04-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-04-08T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>Mathu Malar Chandrababunaidu | GPM</title>
+  <title>Simple steps to create your own GitHub webpage | GPM</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -265,6 +272,25 @@
         
 
         <li class="nav-item">
+          <a class="nav-link" href="../../tutorial/">
+            
+            <span>blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link" href="../../#contact">
             
             <span>Contact</span>
@@ -303,42 +329,316 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
 
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Mathu Malar Chandrababunaidu</h1>
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Simple steps to create your own GitHub webpage</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2020-04-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-04-08 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 8, 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="../../tutorial/2020-04-09-hugo_tutorial/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="../../categories/r/">R</a>
+    
+  </span>
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
-<section id="about" class="pt-5">
-  <div class="container">
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>This guide will help you to create your own GitHub Page from scratch using R package <a href="https://cran.r-project.org/web/packages/blogdown/index.html">blogdown</a>.</p>
+<blockquote>
+<p>Note : This tutorial assumes that you some background knowlege of R.</p>
+</blockquote>
+<p>So the first step is to install blogdown package.</p>
+<pre class="r"><code># install
+install.packages(&quot;blogdown&quot;)
+#load the library
+library(blogdown)</code></pre>
+<p>Before getting started check whether <a href="https://gohugo.io/getting-started/installing/">hugo</a> is installed in your system or not. If not, install using below command.</p>
+<pre class="bash"><code>sudo apt-get install hugo</code></pre>
+<p>After successful installation of package blogdown and hugo you are ready to build your webpage.
+you can choose your theme of interest from <a href="https://themes.gohugo.io/">here</a>.</p>
+<pre class="r"><code># set your working directory where you want to build your site.
+setwd(&quot;github_page&quot;)
+# Here I have used hugo-academic theme version 4.2.5
+blogdown::new_site(dir=&quot;.&quot;,format = &quot;toml&quot;,theme = &quot;gcushen/hugo-academic@v4.2.5&quot;)</code></pre>
+<p>The folder “github_page” will be populated with several files required for bulding webpage as you can see below.</p>
+<pre class="r"><code>&gt; list.files()
+[1] &quot;config&quot;      &quot;config.toml&quot; &quot;content&quot;     &quot;index.Rmd&quot;   &quot;public&quot;      &quot;resources&quot;   &quot;static&quot;      &quot;themes&quot;</code></pre>
+<p>To render the content of the “github_page” folder as webpage use following codes.</p>
+<pre><code># buld webpage to another folder (e.g render)
+blogdown::build_dir(&quot;render&quot;)
+options(blogdown.publishDir=&quot;render&quot;)
+blogdown::build_site()</code></pre>
+<p>Next, serve the hugo template that is built from above lines of code.</p>
+<p>Here you go.</p>
+<pre class="r"><code>blogdown::serve_site()</code></pre>
+<p>The folder “render” will pe populated with the content of the webpage. Modify the markdown files and .toml inside the “render” folder as per your requirement and your webpage will be ready to publish.</p>
+<p>After you have modified the conent and ready to go online, create a repository at <a href="https://github.com/">github</a> with extension “.github.io” (for e.g your_webpage_name.github.io).</p>
+<p>Now the final step is to push the content of the “render” folder to github repository that we created above.</p>
+<pre class="bash"><code># open terminal
+cd render
+# make sure that git is already installed in your system.
+git init
+git add .
+git commit -m &quot;First commit&quot;
+git remote add origin https://github.com/your_webpage_name/your_webpage_name.github.io
+git push origin master</code></pre>
+<p>Congrats you have succesfully created your GitHub webpage !</p>
+<p>I would like to thank <a href="https://arupgsh.github.io/">Arup Ghosh</a> for his help in creating this webpage and tutorial.</p>
+
+    </div>
+
     
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="../../tags/r/">R</a>
+  
+  <a class="badge badge-light" href="../../tags/blogdown/">blogdown</a>
+  
+  <a class="badge badge-light" href="../../tags/hugo-academic/">hugo-academic</a>
+  
+</div>
+
+
+
+
     
+      
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  
+  <img class="portrait mr-3" src="../../author/admin/avatar_hu92dc2123e958b46b04afe7cc34a37d8d_644702_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+  
+
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="../../authors/admin">Gyan Prakash Mishra</a></h5>
+    <h6 class="card-subtitle">PhD Student</h6>
     
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="../../#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/gprakash047" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=04bOmiIAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/gyanmishra" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="../../post/2020-04-09-hugo_tutorial/">Simple steps to create your own GitHub webpage</a></li>
+          
+        </ul>
+      </div>
+      
     
 
     
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="../../publication/das-2015-deciphering/">Deciphering the genome sequences of the hydrophobic cyanobacterium Scytonema tolypothrichoides VB-61278</a>
-        </li>
-        
-        <li>
-          <a href="../../publication/sen-2015-draft/">Draft genome sequence of the terrestrial cyanobacterium Scytonema millei VB511283, isolated from Eastern India</a>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-  
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-gyanmishra-github-io-2" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </section>
 
+
+
+  </div>
+</article>
 
 <div class="container">
   <footer class="site-footer">
